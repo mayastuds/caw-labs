@@ -1,0 +1,30 @@
+# CSS Selectors Exercise
+
+## Project Overview
+This project demonstrates various CSS selector types and their applications in web design, focusing on AI in web development.
+
+## CSS Concepts Demonstrated
+
+### Universal and Type Selectors
+- Universal selector (*) applies font-family and line-height to all elements
+- Type selectors target specific HTML elements like body, h1, h2, and p
+
+### Class and ID Selectors
+- ID selector (#special) targets unique elements with specific IDs
+- Class selector (.hello) applies styles to multiple elements sharing the same class
+
+### Descendant and Child Selectors
+- Child selector (>) targets direct children only
+- Descendant selector (space) targets all descendants regardless of nesting level
+
+### Attribute Selectors
+- Attribute selectors target elements based on their attributes and values
+- Used for styling specific input types like text and submit
+
+### Pseudo-classes and Pseudo-elements
+- :hover applies styles when user hovers over elements
+- :visited styles links that have been previously visited
+- :focus pseudo-class enhances accessibility by providing visual feedback when elements receive focus, improving user experience for keyboard navigation
+
+### Specificity Challenge
+The footer h2 selector has higher specificity than the general h2 selector due to being more specific (combining element and contextual selection). However, both rules have the same specificity since they both use one type selector, so the later rule in the CSS takes precedence due to the cascade order. Specificity is calculated based on the number of ID, class, and type selectors in a rule.
